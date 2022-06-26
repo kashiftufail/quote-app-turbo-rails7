@@ -1,3 +1,4 @@
+<%= turbo_frame_tag @quote do %>
 <main class="container">
   <%= link_to sanitize("&larr; Back to quotes"), quotes_path %>
   <div class="header">
@@ -6,3 +7,4 @@
     </h1>
   </div>
 </main>
+<% end %>
